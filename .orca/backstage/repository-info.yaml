@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: IBM-QRadar-Universal-Cloud-REST-API
+  description: These workflows are NOT supported by IBM.
+  labels:
+    orca.security/is-production: "true"
+    orca.security/repo-is-fork: "true"
+    orca.security/repo-visibility: public
+  annotations:
+    github.com/project-slug: orcasecurity/IBM-QRadar-Universal-Cloud-REST-API
+    github.com/team-slug: orcasecurity/integrations
+    orca.security/jira-project-key: INTG
+    orca.security/jira-project-name: Integration new
+    orca.security/repo-created-at: "2021-06-09T12:48:44Z"
+    orca.security/repo-default-branch: master
+    orca.security/repo-main-language: ""
+  links:
+    - url: https://github.com/orcasecurity/IBM-QRadar-Universal-Cloud-REST-API
+      title: Source Code
+      icon: github
+      type: url
+    - url: https://orcasecurity.atlassian.net/jira/software/c/projects/INTG/boards/117
+      title: Jira
+      icon: grading
+      type: url
+spec:
+  type: repository
+  lifecycle: unknown
+  owner: integrations
